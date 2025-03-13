@@ -1,2 +1,18 @@
 # ArcticRay
-Circuit for controlling a laser module. Based on AtTiny85. Sends PWM signal to module and display voltage of battery. Considered using a 555 chip but due to space and availible components went with AtTiny85 instead.
+
+Circuit to control a laser.
+
+## Features
+- AtTiny85 supply PWM signal to control laser (didn't have 555 IC)
+- Switch to choose between weak and strong laser output
+- On / off switch
+- 3 digit 8-seg display input voltage
+
+## Perfboard circuit sketch
+
+<img src="./images/PerfCircuitArcticRAY.PNG" height="300">
+
+## Photos
+
+<img src="./images/Perf.jpg" height="300">
+<img src="./images/Front.jpg" height="300">
